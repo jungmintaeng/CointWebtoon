@@ -55,7 +55,7 @@
 
             out.println(jsonResult);
             out.flush();
-            System.out.println("[Weboon List Page] Connection successful"  + new SimpleDateFormat("yyyy-MM-dd, hh:mm:ss a").format(new Date()).toString());
+            System.out.println("[Weboon List Page] Connection successful"+ "  "  + new SimpleDateFormat("yyyy-MM-dd, hh:mm:ss").format(new Date()).toString());
         }
     } catch (Exception e) {
         e.printStackTrace();

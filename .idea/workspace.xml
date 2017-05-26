@@ -1,0 +1,1632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1f7ef413-98a5-4404-a37d-c753a9bd9a21" name="Default" comment="서버 로그 시간 찍히게 수정, EpisodeParse 클래스 수정">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/importClasses/NaverAuthentication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Comment_Add.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Comment_Delete.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Comment_Get.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Comment_Like.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/Episode_Client.jsp" afterPath="$PROJECT_DIR$/web/Episode_Client.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/Hits.jsp" afterPath="$PROJECT_DIR$/web/Hits.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/Image_Client.jsp" afterPath="$PROJECT_DIR$/web/Image_Client.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/Likes.jsp" afterPath="$PROJECT_DIR$/web/Likes.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ToonList_Client.jsp" afterPath="$PROJECT_DIR$/web/ToonList_Client.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/Weekday.jsp" afterPath="$PROJECT_DIR$/web/Weekday.jsp" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="D:\IntelliJProject\Server" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Server" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Episode_Client.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/Episode_Client.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="987">
+              <caret line="47" column="30" lean-forward="false" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+              <folding>
+                <marker date="1495068761288" expanded="true" signature="1056:1141" ph="SELECT * FRO... EPISODE" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Episode_Server.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/Episode_Server.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="17" column="60" lean-forward="false" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Hits.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/Hits.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="567">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding>
+                <marker date="1495069513850" expanded="true" signature="965:1006" ph="UPDATE webto... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Comment_Like.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/Comment_Like.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="23" column="44" lean-forward="true" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+              <folding>
+                <marker date="1495372583001" expanded="true" signature="787:842" ph="UPDATE comme... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Comment_Add.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/Comment_Add.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="32" column="54" lean-forward="false" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
+              <folding>
+                <marker date="1495372118760" expanded="true" signature="956:1092" ph="INSERT INTO COMMENT... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Comment_Get.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/Comment_Get.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-145">
+              <caret line="34" column="59" lean-forward="false" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
+              <folding>
+                <marker date="1495372750568" expanded="true" signature="1170:1255" ph="SELECT * FRO... COMMENT" />
+                <marker date="1495372750568" expanded="true" signature="1170:1276" ph="SELECT * FRO... COMMENT" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Comment_Delete.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/Comment_Delete.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+              <folding>
+                <marker date="1495373326855" expanded="true" signature="787:825" ph="DELETE FROM " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EpisodeParse.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/importClasses/EpisodeParse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4620">
+              <caret line="231" column="0" lean-forward="false" selection-start-line="231" selection-start-column="0" selection-end-line="231" selection-end-column="0" />
+              <folding>
+                <marker date="1495001306494" expanded="true" signature="1616:1665" ph="SELECT Id FR... WEBTOON" />
+                <marker date="1495001306494" expanded="true" signature="1750:1860" ph="SELECT DISTI... WEBTOON" />
+                <marker date="1495001306494" expanded="true" signature="1914:1972" ph="SELECT Id FR... WEBTOON" />
+                <marker date="1495001306494" expanded="true" signature="2020:2227" ph="INSERT INTO EPISODE... " />
+                <marker date="1495001306494" expanded="true" signature="2321:2361" ph="UPDATE WEBTO... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebtoonParse.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/importClasses/WebtoonParse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6720">
+              <caret line="328" column="13" lean-forward="false" selection-start-line="328" selection-start-column="13" selection-end-line="328" selection-end-column="13" />
+              <folding>
+                <marker date="1494944886411" expanded="true" signature="1028:1269" ph="INSERT INTO WEBTOON... " />
+                <marker date="1494944886411" expanded="true" signature="15115:15158" ph="SELECT Id FR... WEBTOON" />
+                <marker date="1494944886411" expanded="true" signature="15683:15729" ph="DELETE FROM " />
+                <marker date="1494944886411" expanded="true" signature="15798:15844" ph="DELETE FROM " />
+                <marker date="1494944886411" expanded="true" signature="22081:22103" ph="select Id fr... webtoon" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Likes.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/Likes.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1281">
+              <caret line="61" column="152" lean-forward="false" selection-start-line="61" selection-start-column="152" selection-end-line="61" selection-end-column="152" />
+              <folding>
+                <marker date="1495186993236" expanded="true" signature="1242:1285" ph="UPDATE webto... " />
+                <marker date="1495186993236" expanded="true" signature="1310:1353" ph="UPDATE webto... " />
+                <marker date="1495186993236" expanded="true" signature="1946:2012" ph="UPDATE EPISO... " />
+                <marker date="1495186993236" expanded="true" signature="2037:2103" ph="UPDATE EPISO... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>NaverL</find>
+      <find>1회</find>
+      <find>psts =</find>
+      <find>30 *</find>
+      <find>Jsoup</find>
+      <find>blac</find>
+      <find>black</find>
+      <find>time</find>
+      <find>sql</find>
+      <find>errorList</find>
+      <find>mobileUnsupportedList</find>
+      <find>Jsoup.</find>
+      <find>Socket</find>
+      <find>[DB]</find>
+      <find>errorList.remove</find>
+      <find>%</find>
+      <find>connection =</find>
+      <find>getConnection</find>
+      <find>Is_updated</find>
+      <find>parseIs_break</find>
+      <find>Mobile_</find>
+      <find>updateBla</find>
+      <find>mobileUnsupportedList.add</find>
+      <find>errorL</find>
+      <find>Motion</find>
+      <find>retryCoin</find>
+      <find>Toontype</find>
+      <find>getEpisode</find>
+      <find>getEpisodesOnePage</find>
+      <find>delete</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/importClasses/MobileNaverLogin.java" />
+        <option value="$PROJECT_DIR$/web/Login.jsp" />
+        <option value="$PROJECT_DIR$/web/ToonList_Server.jsp" />
+        <option value="$PROJECT_DIR$/src/importClasses/NaverLogin.java" />
+        <option value="$PROJECT_DIR$/src/importClasses/DBAuthentication.java" />
+        <option value="$PROJECT_DIR$/src/importClasses/NaverAuthentication.java" />
+        <option value="$PROJECT_DIR$/web/StartPage.jsp" />
+        <option value="$PROJECT_DIR$/src/importClasses/Webtoon.java" />
+        <option value="$PROJECT_DIR$/src/importClasses/Episode.java" />
+        <option value="$PROJECT_DIR$/web/Image_Server.jsp" />
+        <option value="$PROJECT_DIR$/web/Episode_Server.jsp" />
+        <option value="$PROJECT_DIR$/src/importClasses/ImagesInEpisode.java" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/Genre.jsp" />
+        <option value="$PROJECT_DIR$/web/Weekday.jsp" />
+        <option value="$PROJECT_DIR$/src/importClasses/ImageURLParse.java" />
+        <option value="$PROJECT_DIR$/src/importClasses/WebtoonParse.java" />
+        <option value="$PROJECT_DIR$/src/importClasses/EpisodeParse.java" />
+        <option value="$PROJECT_DIR$/web/ToonList_Client.jsp" />
+        <option value="$PROJECT_DIR$/web/Likes.jsp" />
+        <option value="$PROJECT_DIR$/web/Hits.jsp" />
+        <option value="$PROJECT_DIR$/web/Episode_Client.jsp" />
+        <option value="$PROJECT_DIR$/web/Image_Client.jsp" />
+        <option value="$PROJECT_DIR$/web/Comment_Add.jsp" />
+        <option value="$PROJECT_DIR$/web/Comment_Like.jsp" />
+        <option value="$PROJECT_DIR$/web/Comment_Get.jsp" />
+        <option value="$PROJECT_DIR$/web/Comment_Delete.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="width" value="1934" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="importClasses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/IntelliJProject/Server/src/importClasses/ImagesInEpisode.java&#10;AnnotationC&#9;PSI&#9;JAVA://com.sun.xml.internal.ws.client.HandlerConfigurator.AnnotationConfigurator&#10;Annotation&#9;PSI&#9;JAVA://java.text.Annotation&#10;xml&#9;FILE&#9;file://D:/IntelliJProject/Server/.idea/libraries/htmlunit_2_24_OSGi.xml" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IntelliJProject\Server\web\resources" />
+      <recent name="D:\IntelliJProject\Server\web" />
+      <recent name="D:\IntelliJProject\Server\src\importClasses" />
+      <recent name="D:\IntelliJProject\Server\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.11">
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Server" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="false" name="Tomcat 8.5.11" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.11" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/StartPage.jsp" />
+      <deployment>
+        <artifact name="Server:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_5_11_Server" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="63965" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Server:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 8.5.11" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1f7ef413-98a5-4404-a37d-c753a9bd9a21" name="Default" comment="" />
+      <created>1487137438394</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1487137438394</updated>
+      <workItem from="1487137445942" duration="1331000" />
+      <workItem from="1487140820874" duration="2456000" />
+      <workItem from="1487274145694" duration="6000" />
+      <workItem from="1487729547386" duration="4604000" />
+      <workItem from="1488173275706" duration="3203000" />
+      <workItem from="1488183345243" duration="49000" />
+      <workItem from="1488191695816" duration="1426000" />
+      <workItem from="1488193169834" duration="29000" />
+      <workItem from="1488280522891" duration="112000" />
+      <workItem from="1488280817982" duration="14250000" />
+      <workItem from="1488580198067" duration="2015000" />
+      <workItem from="1488615756243" duration="607000" />
+      <workItem from="1488624903145" duration="1282000" />
+      <workItem from="1488645318755" duration="7262000" />
+      <workItem from="1488723308653" duration="1301000" />
+      <workItem from="1488773949974" duration="1558000" />
+      <workItem from="1488791732475" duration="967000" />
+      <workItem from="1488880863421" duration="4166000" />
+      <workItem from="1488963538355" duration="5610000" />
+      <workItem from="1489037899642" duration="9931000" />
+      <workItem from="1489141943852" duration="7004000" />
+      <workItem from="1489237422818" duration="12058000" />
+      <workItem from="1489368096201" duration="599000" />
+      <workItem from="1489371814417" duration="427000" />
+      <workItem from="1489385238857" duration="4784000" />
+      <workItem from="1489398417171" duration="4882000" />
+      <workItem from="1489480211939" duration="3765000" />
+      <workItem from="1489495336677" duration="4478000" />
+      <workItem from="1489808549414" duration="239000" />
+      <workItem from="1490011929038" duration="2141000" />
+      <workItem from="1490014309950" duration="28000" />
+      <workItem from="1490014532571" duration="189000" />
+      <workItem from="1490084934658" duration="157000" />
+      <workItem from="1490087404047" duration="2047000" />
+      <workItem from="1490094739472" duration="16000" />
+      <workItem from="1490517604486" duration="10609000" />
+      <workItem from="1490580198765" duration="956000" />
+      <workItem from="1490581476162" duration="240000" />
+      <workItem from="1490604683124" duration="2778000" />
+      <workItem from="1490608543585" duration="362000" />
+      <workItem from="1490609081545" duration="298000" />
+      <workItem from="1490609646298" duration="3070000" />
+      <workItem from="1490697998711" duration="4999000" />
+      <workItem from="1490782755930" duration="120000" />
+      <workItem from="1491197332026" duration="772000" />
+      <workItem from="1491301382414" duration="2500000" />
+      <workItem from="1491644254388" duration="312000" />
+      <workItem from="1491648724187" duration="14362000" />
+      <workItem from="1491669729926" duration="441000" />
+      <workItem from="1491917607176" duration="805000" />
+      <workItem from="1492070874811" duration="2035000" />
+      <workItem from="1493011431359" duration="159000" />
+      <workItem from="1493051165362" duration="1379000" />
+      <workItem from="1493052551815" duration="245000" />
+      <workItem from="1493055149545" duration="48000" />
+      <workItem from="1493055369883" duration="2057000" />
+      <workItem from="1493095197623" duration="11353000" />
+      <workItem from="1493115480750" duration="228000" />
+      <workItem from="1493115862644" duration="986000" />
+      <workItem from="1493117874290" duration="1270000" />
+      <workItem from="1493120141774" duration="334000" />
+      <workItem from="1493120481919" duration="99000" />
+      <workItem from="1493121674580" duration="628000" />
+      <workItem from="1493124652368" duration="33000" />
+      <workItem from="1493125335714" duration="2261000" />
+      <workItem from="1493128071964" duration="138000" />
+      <workItem from="1493137571895" duration="7672000" />
+      <workItem from="1493171782637" duration="1183000" />
+      <workItem from="1493174640343" duration="214000" />
+      <workItem from="1493199453652" duration="11766000" />
+      <workItem from="1493304358151" duration="1735000" />
+      <workItem from="1493715502010" duration="24000" />
+      <workItem from="1494898273278" duration="3000" />
+      <workItem from="1494925607396" duration="9336000" />
+      <workItem from="1494943717802" duration="1486000" />
+      <workItem from="1494945590929" duration="522000" />
+      <workItem from="1494955372513" duration="1002000" />
+      <workItem from="1494958549448" duration="2252000" />
+      <workItem from="1494995453954" duration="2063000" />
+      <workItem from="1495000088300" duration="2187000" />
+      <workItem from="1495056817534" duration="21000" />
+      <workItem from="1495060259488" duration="8000" />
+      <workItem from="1495065866804" duration="842000" />
+      <workItem from="1495068351731" duration="469000" />
+      <workItem from="1495069154367" duration="72000" />
+      <workItem from="1495368605110" duration="3941000" />
+      <workItem from="1495373163439" duration="2009000" />
+    </task>
+    <task id="LOCAL-00001" summary="First Server Commit">
+      <created>1488293979073</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1488293979073</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Webtoon 목록 업데이트시 완결 웹툰으로 이동했을 때 요일이 바뀌는 현상 해결">
+      <created>1488295165930</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1488295165930</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Webtoon 목록 업데이트시 완결 웹툰으로 이동했을 때 요일이 바뀌는 현상 해결">
+      <created>1488299834919</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1488299834919</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Webtoon 목록 업데이트시 완결 웹툰으로 이동했을 때 요일이 바뀌는 현상 해결">
+      <created>1488300985764</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1488300985764</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Webtoon 쿼리 변경">
+      <created>1488685747893</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1488685747893</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Webtoon 쿼리 변경">
+      <created>1490014005345</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1490014005345</updated>
+    </task>
+    <task id="LOCAL-00007" summary="코드 최적화, 최신화 빠른 업데이트 추가, 모든 회차 업데이트 선택시 23~1시에 자동으로 빠른 업데이트가 되던 점 수정">
+      <created>1493052705213</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1493052705213</updated>
+    </task>
+    <task id="LOCAL-00008" summary="index.jsp 수정&#10;EpisodeParse.java, ImageURLParse.java&#10;서버 업데이트시 Jsoup timeout exception이 발생 -&gt; 5번까지 재시도 하는 부분 추가&#10;전체 안정화">
+      <created>1493211241135</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1493211241135</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Mobile_unsupported 판단 알고리즘 수정, 모션툰 식별 알고리즘 추가, 모션툰 Toontype='M' 업데이트">
+      <created>1494940585747</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1494940585747</updated>
+    </task>
+    <task id="LOCAL-00010" summary="버튼을 통해 업데이트시 11시~1시에도 모든 회차 업데이트 하도록 수정, WebtoonParse에서 Toontype M인 것들 G로 덮어지는 현상 수정">
+      <created>1494945965382</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1494945965382</updated>
+    </task>
+    <task id="LOCAL-00011" summary="서버 로그 시간 찍히게 수정, EpisodeParse 클래스 수정">
+      <created>1495066677967</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1495066677967</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="219663000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="0" width="1934" height="1056" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33671293" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13607258" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286334" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First Server Commit" />
+    <MESSAGE value="Webtoon 목록 업데이트시 완결 웹툰으로 이동했을 때 요일이 바뀌는 현상 해결" />
+    <MESSAGE value="Webtoon 쿼리 변경" />
+    <MESSAGE value="코드 최적화, 최신화 빠른 업데이트 추가, 모든 회차 업데이트 선택시 23~1시에 자동으로 빠른 업데이트가 되던 점 수정" />
+    <MESSAGE value="index.jsp 수정&#10;EpisodeParse.java, ImageURLParse.java&#10;서버 업데이트시 Jsoup timeout exception이 발생 -&gt; 5번까지 재시도 하는 부분 추가&#10;전체 안정화" />
+    <MESSAGE value="Mobile_unsupported 판단 알고리즘 수정, 모션툰 식별 알고리즘 추가, 모션툰 Toontype='M' 업데이트" />
+    <MESSAGE value="버튼을 통해 업데이트시 11시~1시에도 모든 회차 업데이트 하도록 수정, WebtoonParse에서 Toontype M인 것들 G로 덮어지는 현상 수정" />
+    <MESSAGE value="서버 로그 시간 찍히게 수정, EpisodeParse 클래스 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="서버 로그 시간 찍히게 수정, EpisodeParse 클래스 수정" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="6" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/importClasses/Episode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="41" lean-forward="false" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/importClasses/EpisodeParse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/importClasses/ImagesInEpisode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="36" lean-forward="false" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/importClasses/ImageURLParse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/importClasses/NaverLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="13" column="3" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/importClasses/Webtoon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="57" lean-forward="false" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/importClasses/WebtoonParse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="42" column="38" lean-forward="true" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/importClasses/DBAuthentication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/importClasses/Episode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/importClasses/EpisodeParse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/importClasses/ImagesInEpisode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/importClasses/ImageURLParse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/importClasses/NaverLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/importClasses/Webtoon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="57" lean-forward="false" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/importClasses/WebtoonParse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/importClasses/Episode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/importClasses/ReplyActivity.java" />
+    <entry file="file://$PROJECT_DIR$/src/importClasses/MobileNaverLogin.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="428" column="0" lean-forward="false" selection-start-line="428" selection-start-column="0" selection-end-line="428" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/htmlunit_2_24_OSGi.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="40" lean-forward="false" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/text/Annotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="56" column="13" lean-forward="false" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/jre/lib/rt.jar!/com/sun/xml/internal/ws/client/HandlerConfigurator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/importClasses.DBAuthentication">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>importClasses.DBAuthentication</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">importClasses.DBAuthentication</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-10.0" y="-173.0" />
+          <SelectedNodes>
+            <node>importClasses.DBAuthentication</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/ToonList_Server.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/importClasses">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>importClasses</OriginalElement>
+          <nodes>
+            <node x="262.0" y="0.0">importClasses.EpisodeParse</node>
+            <node x="370.0" y="267.0">importClasses.DBAuthentication</node>
+            <node x="57.0" y="267.0">importClasses.Webtoon</node>
+            <node x="183.0" y="267.0">importClasses.NaverAuthentication</node>
+            <node x="265.0" y="99.0">importClasses.Episode</node>
+            <node x="42.0" y="99.0">importClasses.ImageURLParse</node>
+            <node x="0.0" y="192.0">importClasses.NaverLogin</node>
+            <node x="0.0" y="362.0">importClasses.WebtoonParse</node>
+            <node x="96.0" y="0.0">importClasses.ImagesInEpisode</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="importClasses.ImageURLParse" target="importClasses.ImagesInEpisode">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="importClasses.WebtoonParse" target="importClasses.Webtoon">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="importClasses.EpisodeParse" target="importClasses.Episode">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="importClasses.ImageURLParse" target="importClasses.NaverLogin">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.7000000000000002" x="-154.0" y="74.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/net/SocketTimeoutException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Weekday.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/importClasses/NaverLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1176">
+          <caret line="68" column="19" lean-forward="false" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/importClasses/Webtoon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="45" lean-forward="false" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/importClasses/ImagesInEpisode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/importClasses/NaverAuthentication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/importClasses/ImageURLParse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="59" column="82" lean-forward="false" selection-start-line="59" selection-start-column="74" selection-end-line="59" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/importClasses/Episode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="38" lean-forward="false" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="35" column="28" lean-forward="false" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Image_Server.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="9" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3213">
+          <caret line="153" column="53" lean-forward="false" selection-start-line="153" selection-start-column="53" selection-end-line="153" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/ToonList_Client.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1197">
+          <caret line="58" column="9" lean-forward="false" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
+          <folding>
+            <marker date="1495069550747" expanded="true" signature="1047:1125" ph="SELECT * FRO... WEBTOON" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Genre.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="50" column="37" lean-forward="false" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
+          <folding>
+            <marker date="1494927304114" expanded="true" signature="1041:1118" ph="SELECT Id_G,... GENRE" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/importClasses/DBAuthentication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Image_Client.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="40" column="63" lean-forward="false" selection-start-line="40" selection-start-column="63" selection-end-line="40" selection-end-column="63" />
+          <folding>
+            <marker date="1495069772164" expanded="true" signature="1046:1113" ph="SELECT * FRO... IMAGE" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/importClasses/EpisodeParse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4620">
+          <caret line="231" column="0" lean-forward="false" selection-start-line="231" selection-start-column="0" selection-end-line="231" selection-end-column="0" />
+          <folding>
+            <marker date="1495001306494" expanded="true" signature="1616:1665" ph="SELECT Id FR... WEBTOON" />
+            <marker date="1495001306494" expanded="true" signature="1750:1860" ph="SELECT DISTI... WEBTOON" />
+            <marker date="1495001306494" expanded="true" signature="1914:1972" ph="SELECT Id FR... WEBTOON" />
+            <marker date="1495001306494" expanded="true" signature="2020:2227" ph="INSERT INTO EPISODE... " />
+            <marker date="1495001306494" expanded="true" signature="2321:2361" ph="UPDATE WEBTO... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/importClasses/WebtoonParse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6720">
+          <caret line="328" column="13" lean-forward="false" selection-start-line="328" selection-start-column="13" selection-end-line="328" selection-end-column="13" />
+          <folding>
+            <marker date="1494944886411" expanded="true" signature="1028:1269" ph="INSERT INTO WEBTOON... " />
+            <marker date="1494944886411" expanded="true" signature="15115:15158" ph="SELECT Id FR... WEBTOON" />
+            <marker date="1494944886411" expanded="true" signature="15683:15729" ph="DELETE FROM " />
+            <marker date="1494944886411" expanded="true" signature="15798:15844" ph="DELETE FROM " />
+            <marker date="1494944886411" expanded="true" signature="22081:22103" ph="select Id fr... webtoon" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Likes.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1281">
+          <caret line="61" column="152" lean-forward="false" selection-start-line="61" selection-start-column="152" selection-end-line="61" selection-end-column="152" />
+          <folding>
+            <marker date="1495186993236" expanded="true" signature="1242:1285" ph="UPDATE webto... " />
+            <marker date="1495186993236" expanded="true" signature="1310:1353" ph="UPDATE webto... " />
+            <marker date="1495186993236" expanded="true" signature="1946:2012" ph="UPDATE EPISO... " />
+            <marker date="1495186993236" expanded="true" signature="2037:2103" ph="UPDATE EPISO... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Episode_Server.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="60" lean-forward="false" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Episode_Client.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="987">
+          <caret line="47" column="30" lean-forward="false" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+          <folding>
+            <marker date="1495068761288" expanded="true" signature="1056:1141" ph="SELECT * FRO... EPISODE" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Hits.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <marker date="1495069513850" expanded="true" signature="965:1006" ph="UPDATE webto... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Comment_Like.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="44" lean-forward="true" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+          <folding>
+            <marker date="1495372583001" expanded="true" signature="787:842" ph="UPDATE comme... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Comment_Add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="32" column="54" lean-forward="false" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
+          <folding>
+            <marker date="1495372118760" expanded="true" signature="956:1092" ph="INSERT INTO COMMENT... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Comment_Get.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-145">
+          <caret line="34" column="59" lean-forward="false" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
+          <folding>
+            <marker date="1495372750568" expanded="true" signature="1170:1255" ph="SELECT * FRO... COMMENT" />
+            <marker date="1495372750568" expanded="true" signature="1170:1276" ph="SELECT * FRO... COMMENT" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Comment_Delete.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding>
+            <marker date="1495373326855" expanded="true" signature="787:825" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>Server:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Server</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>mysql-connector-java-5.1.40-bin</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,16 +1,34 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: jm
-  Date: 2017-05-21
-  Time: ì˜¤í›„ 10:28
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
-<head>
-    <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+<%@ page contentType="application/json;charset=EUC-KR" language="java" %>
+<%@ page import="java.sql.Connection" %>
+<%@ page import="java.sql.DriverManager" %>
+<%@ page import="java.sql.PreparedStatement" %><%@ page import="java.sql.SQLException"%><%@ page import="importClasses.DBAuthentication"%>
+<%@ page import="java.text.SimpleDateFormat"%>
+<%@ page import="java.util.Date"%>
+<%
+	    Connection connection = null;
+	PreparedStatement statement = null;
+  try {
+    Class.forName(DBAuthentication.driverName);
+    connection = DriverManager.getConnection(DBAuthentication.url, DBAuthentication.id, DBAuthentication.password);
+    if(connection != null) {
+
+      String id = request.getParameter("comment_id");
+
+      //Connection °´Ã¼¿¡ ´ëÇØ, ÁúÀÇ¹® »ç¿ëÀ» À§ÇÑ statement °´Ã¼ »ý¼º
+
+      String sql = "DELETE FROM comment WHERE Comment_id=?";
+	statement = connection.prepareStatement(sql);
+
+      statement.setInt(1,Integer.parseInt(id));            //  whereÀýÀÇ Á¶°ÇÀ» ¼³Á¤
+      statement.executeUpdate();                      //Äõ¸® ½ÇÇà
+      System.out.println("[Comment DELETE Page] ID : " + id  + " Connection successful"+ "  "  + new SimpleDateFormat("yyyy-MM-dd, hh:mm:ss").format(new Date()).toString());
+   }
+  }catch (SQLException ex){
+    System.out.println("SQL Exception "+ex);
+  }catch (Exception ex) {
+    System.out.println("Exception " + ex);
+  }finally{
+	try{	connection.close();}catch(Exception e){}
+try{statement.close();}catch(Exception e){}
+  }
+%>

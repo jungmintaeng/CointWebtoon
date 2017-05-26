@@ -19,7 +19,6 @@
     JSONArray jsonArray = new JSONArray();
     Class.forName(DBAuthentication.driverName);
     connection = DriverManager.getConnection(DBAuthentication.url, DBAuthentication.id, DBAuthentication.password);
-    System.out.println("Connection successful");
     if(connection != null) {
 
       String id = request.getParameter("id");
@@ -49,7 +48,7 @@
       }
       out.println(jsonObject);
       out.flush();
-      System.out.println("[Image Page] ID : " + id  + "Episode ID : " + ep_id +  " Connection successful"  + new SimpleDateFormat("yyyy-MM-dd, hh:mm:ss a").format(new Date()).toString());
+      System.out.println("[Image Page] ID : " + id  + " Episode ID : " + ep_id +  " Connection successful"+ "  "  + new SimpleDateFormat("yyyy-MM-dd, hh:mm:ss").format(new Date()).toString());
     }
   }catch (SQLException ex){
     System.out.println("SQL Exception "+ex);
